@@ -11,7 +11,6 @@
 **Animated Tile Generator** is a powerful Unity Editor tool that simplifies the creation of animated tiles for 2D games. Instead of manually creating an Animated Tile asset for each animation, this tool provides an intuitive visual interface where you can select sprites in sequence and generate the animated tile with just one click.
 
 Perfect for:
-
 - 2D pixel art games
 - Tilemap-based projects
 - Games with animated water, lava, fire, grass, etc.
@@ -46,7 +45,6 @@ Perfect for:
 1. Import your sprite sheet into Unity
 2. Select it in the Project window
 3. In the Inspector, configure:
-
    - **Texture Type**: Sprite (2D and UI)
    - **Sprite Mode**: Multiple
    - **Pixels Per Unit**: 16 (or your tile size)
@@ -102,7 +100,6 @@ Perfect for:
 ### ⚠️ Troubleshooting
 
 **Previews are gray/not loading:**
-
 - Select your sprite sheet in Project
 - In Inspector, find **Advanced → Read/Write Enabled**
 - Check this option ✓
@@ -110,12 +107,10 @@ Perfect for:
 - Reload the tool and click "Load All Previews" again
 
 **GUI Errors in console:**
-
 - Close the tool window
 - Reopen it from **Tools → Animated Tile Generator (Manual)**
 
 **Sprites not animating in scene:**
-
 - Make sure you're using the Animated Tile (not regular tiles)
 - Check that you selected multiple sprites (minimum 2)
 - Press Play to see the animation
@@ -123,7 +118,6 @@ Perfect for:
 ### 📦 What Gets Created
 
 The tool creates `.asset` files in your specified output folder:
-
 - Each file is an `AnimatedTile` asset
 - Contains references to your selected sprites in order
 - Can be used directly in Unity's Tile Palette
@@ -132,7 +126,6 @@ The tool creates `.asset` files in your specified output folder:
 ### 🤝 Contributing
 
 Contributions are welcome! Feel free to:
-
 - Report bugs
 - Suggest new features
 - Submit pull requests
@@ -149,7 +142,6 @@ Created by **Gustavo** - [github.com/gustavoweb](https://github.com/gustavoweb)
 ### 🌟 Support
 
 If this tool helped you, consider:
-
 - ⭐ Starring the repository
 - 🐛 Reporting issues
 - 📢 Sharing with other Unity developers
@@ -163,7 +155,6 @@ If this tool helped you, consider:
 **Animated Tile Generator** é uma ferramenta poderosa para o Editor Unity que simplifica a criação de tiles animados para jogos 2D. Ao invés de criar manualmente um asset Animated Tile para cada animação, esta ferramenta fornece uma interface visual intuitiva onde você pode selecionar sprites em sequência e gerar o tile animado com apenas um clique.
 
 Perfeito para:
-
 - Jogos 2D pixel art
 - Projetos baseados em Tilemap
 - Jogos com água, lava, fogo, grama animados, etc.
@@ -198,7 +189,6 @@ Perfeito para:
 1. Importe sua sprite sheet para a Unity
 2. Selecione ela na janela Project
 3. No Inspector, configure:
-
    - **Texture Type**: Sprite (2D and UI)
    - **Sprite Mode**: Multiple
    - **Pixels Per Unit**: 16 (ou o tamanho do seu tile)
@@ -254,7 +244,6 @@ Perfeito para:
 ### ⚠️ Solução de Problemas
 
 **Previews estão cinzas/não carregam:**
-
 - Selecione sua sprite sheet no Project
 - No Inspector, encontre **Advanced → Read/Write Enabled**
 - Marque esta opção ✓
@@ -262,12 +251,10 @@ Perfeito para:
 - Recarregue a ferramenta e clique em "Carregar Todos os Previews" novamente
 
 **Erros de GUI no console:**
-
 - Feche a janela da ferramenta
 - Reabra pelo menu **Tools → Animated Tile Generator (Manual)**
 
 **Sprites não animam na cena:**
-
 - Certifique-se de estar usando o Animated Tile (não tiles normais)
 - Verifique se selecionou múltiplos sprites (mínimo 2)
 - Pressione Play para ver a animação
@@ -275,7 +262,6 @@ Perfeito para:
 ### 📦 O Que É Criado
 
 A ferramenta cria arquivos `.asset` na pasta de saída especificada:
-
 - Cada arquivo é um asset `AnimatedTile`
 - Contém referências aos seus sprites selecionados em ordem
 - Pode ser usado diretamente na Tile Palette da Unity
@@ -284,7 +270,6 @@ A ferramenta cria arquivos `.asset` na pasta de saída especificada:
 ### 🤝 Contribuindo
 
 Contribuições são bem-vindas! Sinta-se livre para:
-
 - Reportar bugs
 - Sugerir novos recursos
 - Enviar pull requests
@@ -301,7 +286,6 @@ Criado por **Gustavo** - [github.com/gustavoweb](https://github.com/gustavoweb)
 ### 🌟 Apoio
 
 Se esta ferramenta te ajudou, considere:
-
 - ⭐ Dar uma estrela no repositório
 - 🐛 Reportar problemas
 - 📢 Compartilhar com outros desenvolvedores Unity
@@ -310,16 +294,31 @@ Se esta ferramenta te ajudou, considere:
 
 ## 📸 Screenshots
 
-_Add your screenshots here showing:_
+### Tool Interface
+![Tool Interface](https://via.placeholder.com/800x600/2c2c2c/ffffff?text=Animated+Tile+Generator+Interface)
+*The main interface with sprite grid and selection system*
 
-- The tool interface
-- Sprite selection process
-- Created animated tiles in action
-- Tile Palette with animated tiles
+### Sprite Selection Process
+![Sprite Selection](https://via.placeholder.com/800x600/2c2c2c/ffffff?text=Selecting+Sprites+in+Order)
+*Selecting sprites in animation order - green highlighting shows selected frames*
 
-## 🎬 Demo
+### Animated Tiles in Action
+![Animated Tiles](https://via.placeholder.com/800x600/2c2c2c/ffffff?text=Animated+Water+Tiles+in+Scene)
+*Water tiles animating smoothly in a game scene*
 
-_Consider adding a GIF or video showing the tool in action_
+### Tile Palette
+![Tile Palette](https://via.placeholder.com/800x600/2c2c2c/ffffff?text=Tile+Palette+with+Animated+Tiles)
+*Animated tiles ready to use in Unity's Tile Palette*
+
+## 🎬 Video Tutorial
+
+Watch the complete tutorial on YouTube:
+
+[![Animated Tile Generator Tutorial](https://img.youtube.com/vi/VIDEO_ID_HERE/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+
+*Click the image above to watch the full tutorial*
+
+> **Note:** Replace `VIDEO_ID_HERE` with your actual YouTube video ID
 
 ---
 
