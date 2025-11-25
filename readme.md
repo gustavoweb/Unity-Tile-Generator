@@ -312,7 +312,7 @@ Se esta ferramenta te ajudou, considere:
 
 ### Tool Interface
 
-![Tool Path](screenshots/Tool-Animated-Tile.png)
+![Tool Path](screenshots/Tools-Animated-Tile.png)
 _The main interface with sprite grid and selection system_
 
 ### Windows Interface
