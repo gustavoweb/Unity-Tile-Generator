@@ -312,7 +312,7 @@ Se esta ferramenta te ajudou, considere:
 
 ### Tool Interface
 
-![Tool Path](screenshots/Tool-Animated.png)
+![Tool Path](screenshots/Tool-Animated-Tile.png)
 _The main interface with sprite grid and selection system_
 
 ### Windows Interface
@@ -322,7 +322,7 @@ _Window interface - Simple Tool_
 
 ### Sprite Selection Process
 
-![Tool Interface with Sprite](screenshots/Tool-Animated-Sprite.png)
+![Tool Interface with Sprite](screenshots/Window-Animated-Sprite.png)
 _Selecting sprites in animation order - green highlighting shows selected frames_
 
 ## 🎬 Video Tutorial
